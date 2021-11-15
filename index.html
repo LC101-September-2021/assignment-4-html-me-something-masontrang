@@ -2,23 +2,26 @@
 <html>
    <head>
       <title>Some cool cars</title>
-      <h1>
-         Some cool cars that I like
-      </h1>
+      <link href="styles.css" rel="stylesheet" type="text/css" />
    </head>
    <body>
       <main>
-      <article>
+      <article class="mainHeading">
+         <h1>
+            Some cool cars that I like
+         </h1>
          <li><a href="#model3">2022 Tesla Model 3 Performance</li></a>
          <li><a href="#modelS">2022 Tesla Model S Plaid</li></a>
          <li><a href="#miata">2021 Mazda Miata RF</li></a>
          <li><a href="#corvette">2023 Chevrolet Corvette Z06</li></a>
+         <br>
+         <hr>
       </article>
-      <article>
+      <article class="entry">
          <a name="model3"></a>
-         <h1>
+         <h2>
             2022 Tesla Model 3
-         </h1>
+         </h2>
          <p>
             <img src="images/model3.jpg" alt="Tesla Model 3" width="640" height="397">
          </p>
@@ -27,12 +30,14 @@
          <p>
             I like the Model 3 because it is fast and electric
          </p>
+         <hr>
       </article>
-      <article>
+      
+      <article class="entry">
          <a name="modelS"></a>
-         <h1>
+         <h2>
             2022 Tesla Model S
-         </h1>
+         </h2>
          <p>
             <img src="images/modelS.jpg" alt="Tesla Model S" width="640" height="360">
          </p>
@@ -42,12 +47,13 @@
          <p>
             I like the Model S Plaid because it is faster and electric
          </p>
+         <hr>
       </article>
-      <article>
+      <article class="entry">
          <a name="miata"></a>
-         <h1>
+         <h2>
             2021 Mazda Miata RF
-         </h1>
+         </h2>
          <p>
             <img src="images/miata.jpg" alt="Mazda Miata" width="640" height="360">
          </p>
@@ -57,12 +63,13 @@
          <p>
             Miata is always the answer
          </p>
+         <hr>
       </article>
-      <article>
+      <article class="entry">
          <a name="corvette"></a>
-         <h1>
+         <h2>
             2023 Chevrolet Corvette Z06
-         </h1>
+         </h2>
          <p>
             <img src="images/corvette.jpg" alt="Chevrolet Corvette" width="640" height="426">
          </p>
@@ -72,14 +79,18 @@
          <p>
             The Corvette Z06 is cool and fast
          </p>
+         <hr>
       </article>
-      <article>
+      <article class="table">
          <a name="Summary"></a>
-         <h1>
+         <h2>
             Summary
-         </h1>
-         <p>
+         </h2>
+         <p id="testP">
             This is a summary table of the cars listed above
+         </p>
+         <p class="funParagraph">
+            I would like to purchase all of these cars some day.
          </p>
          <table>
             <tr>
@@ -96,7 +107,7 @@
                <td>Model 3</th>
                <td>$58,990</th>
                <td>3.1s</th>
-               <td>113MPGe</th>
+               <td id="green-text">113MPGe</th>
             </tr>
             <tr>
                <td>2022</th>
@@ -104,7 +115,7 @@
                <td>Model S</th>
                <td>$129,990</th>
                <td>1.99s</th>
-               <td>101MPGe</th>
+               <td id="green-text">101MPGe</th>
             </tr>
             <tr>
                <td>2021</th>
@@ -112,7 +123,7 @@
                <td>Miata RF</th>
                <td>$33,045</th>
                <td>5.8s</th>
-               <td>29MPGe</th>
+               <td>29MPG</th>
             </tr>
             <tr>
                <td>2023</th>
@@ -120,13 +131,13 @@
                <td>Corvette Z06</th>
                <td><em>$90,000 (est)</em></th>
                <td>2.6s</th>
-               <td>16MPGe</th>
+               <td>16MPG</th>
             </tr>
          </table>
          <br>
          <br>
       </article>
       </main>
-      <footer>&copy;Mason Trang</footer>
+      <footer>&copy;Mason Trang 2021</footer>
    </body>
 </html>
