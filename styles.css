@@ -8,33 +8,33 @@
 
 body {
     background-color: whitesmoke;
-    display: block
+    display: block;
     margin: 8px;
   }
 
 
 .mainHeading {
     background-color:lightgray;  
-    color:red 
+    color:red ;
   }
 
 .entry {
     width: 1000;
-    background-color: lightblue    
+    background-color: lightblue    ;
   }
 .table {
     width: 1000;
-    background-color: lightgray
+    background-color: lightgray;
     
   }
 
 .funParagraph {
-    color:green
+    color:green;
 }
 
 #testP {
-    color:green
+    color:green;
 }
 #green-text {
-    color:green
+    color:green;
   }
