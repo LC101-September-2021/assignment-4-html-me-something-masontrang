@@ -20,7 +20,8 @@ body {
 
 .entry {
     width: 1000;
-    background-color: lightblue    ;
+    background-color: lightblue;
+    padding: 10px;
   }
 .table {
     width: 1000;
