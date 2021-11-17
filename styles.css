@@ -12,8 +12,11 @@ body {
     margin: 8px;
   }
 
-
+#navigation {
+  text-align:center
+}
 #mainHeading {
+    text-align: center;
     background-color:lightgray;  
     color:red;
   }
