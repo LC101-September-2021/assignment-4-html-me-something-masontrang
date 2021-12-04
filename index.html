@@ -1,8 +1,148 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <title>Some cool cars</title>
+      <link href="styles.css" rel="stylesheet" type="text/css" />
    </head>
    <body>
-      <!-- Write your HTML in this file! -->
+      <header>
+      <h1 id="mainHeading">
+         Some cool cars that I like
+      </h1>
+      <nav id="navigation">
+         <li><a href="#model3">2022 Tesla Model 3 Performance</li></a>
+         <li><a href="#modelS">2022 Tesla Model S Plaid</li></a>
+         <li><a href="#miata">2021 Mazda Miata RF</li></a>
+         <li><a href="#corvette">2023 Chevrolet Corvette Z06</li></a>
+         <br>
+         <hr>
+      </nav>
+      </header>
+      <main>
+      <section class="entry">
+         <a name="model3"></a>
+         <h2>
+            2022 Tesla Model 3 Performance
+         </h2>
+         <p>
+            <img src="images/Model3.jpg" alt="Tesla Model 3" width="640" height="426">
+         </p>
+         <p>
+            &#8226;<b>Starting Price:</b> $58,990 &#8226; <b>0-60mph:</b> 3.1 seconds &#8226; <b>Fuel Economy (combined):</b> 113MPGe 
+         <p>
+            I like the Model 3 because it is fast and electric
+         </p>
+         <hr>
+      </section>
+      <section class="entry">
+         <a name="modelS"></a>
+         <h2>
+            2022 Tesla Model S Plaid
+         </h2>
+         <p>
+            <img src="images/ModelS.jpg" alt="Tesla Model S" width="640" height="480">
+         </p>
+         <p>
+            &#8226;<b>Starting Price:</b> $129,990 &#8226; <b>0-60mph:</b> 1.99 seconds &#8226; <b>Fuel Economy (combined):</b> 101MPGe 
+         </p>
+         <p>
+            I like the Model S Plaid because it is faster and electric
+         </p>
+         <hr>
+      </section>
+      <section class="entry">
+         <a name="miata"></a>
+         <h2>
+            2021 Mazda Miata RF
+         </h2>
+         <p>
+            <img src="images/Miata.jpg" alt="Mazda Miata" width="640" height="360">
+         </p>
+         <p>
+            &#8226;<b>Starting Price:</b> $33,045 &#8226; <b>0-60mph:</b> 5.8 seconds &#8226; <b>Fuel Economy (combined):</b> 29MPG
+         </p>
+         <p>
+            Miata is always the answer
+         </p>
+         <hr>
+      </section>
+      <section class="entry">
+         <a name="corvette"></a>
+         <h2>
+            2023 Chevrolet Corvette Z06
+         </h2>
+         <p>
+            <img src="images/Corvette.jpg" alt="Chevrolet Corvette" width="640" height="426">
+         </p>
+         <p>
+            &#8226;<b>Starting Price:</b> <em>Estimated $90,000 </em> &#8226; <b>0-60mph:</b> 2.6 seconds &#8226; <b>Fuel Economy (combined):</b> 16MPG 
+         </p>
+         <p>
+            The Corvette Z06 is cool and fast
+         </p>
+         <hr>
+      </section>
+      <section class="table">
+         <a name="Summary"></a>
+         <h2>
+            Summary
+         </h2>
+         <p id="testP">
+            This is a summary table of the cars listed above
+         </p>
+         <p class="funParagraph">
+            It would be cool to have some of these cars.
+         </p>
+         <table>
+            <tr>
+               <th>Year</th>
+               <th>Make</th>
+               <th>Model</th>
+               <th>Starting Price</th>
+               <th>0-60mph Time</th>
+               <th>Fuel Economy (combined)</th>
+            </tr>
+            <tr>
+               <td>2022</th>
+               <td>Tesla</th>
+               <td>Model 3</th>
+               <td>$58,990</th>
+               <td>3.1s</th>
+               <td id="green-text">113MPGe</th>
+            </tr>
+            <tr>
+               <td>2022</th>
+               <td>Tesla</th>
+               <td>Model S</th>
+               <td>$129,990</th>
+               <td>1.99s</th>
+               <td id="green-text">101MPGe</th>
+            </tr>
+            <tr>
+               <td>2021</th>
+               <td>Mazda</th>
+               <td>Miata RF</th>
+               <td>$33,045</th>
+               <td>5.8s</th>
+               <td>29MPG</th>
+            </tr>
+            <tr>
+               <td>2023</th>
+               <td>Chevrolet</th>
+               <td>Corvette Z06</th>
+               <td><em>$90,000 (est)</em></th>
+               <td>2.6s</th>
+               <td>16MPG</th>
+            </tr>
+         </table>
+         <h3>EVs Are Awesome</h3>
+         <article>I really like EVs because they are quick and efficient.</article>
+         <h4>Cool Cars</h4>
+         <article>The Miata would be fun to drive and the Corvette looks awesome.</article>
+         <br>
+         <br>
+      </section>
+      </main>
+      <footer><h3>&copy;Mason Trang 2021</h3></footer>
    </body>
 </html>

@@ -1,1 +1,43 @@
 /* Write your CSS here! */
+/* html {
+    background-color: lightskyblue;
+    width: 1024px;
+    padding: 20px;
+    margin: 20px;
+  } */
+
+body {
+    background-color: whitesmoke;
+    display: block;
+    margin: 8px;
+  }
+
+#navigation {
+  text-align:center
+}
+#mainHeading {
+    text-align: center;
+    background-color:blue;  
+    color:red;
+  }
+
+.entry {
+    width: 1000;
+    background-color: lightblue;
+    padding: 10px;
+  }
+.table {
+    width: 1000;
+    background-color: lightgray;
+  }
+
+.funParagraph {
+    color:green;
+}
+
+#testP {
+    color:green;
+}
+#green-text {
+    color:green;
+  }
